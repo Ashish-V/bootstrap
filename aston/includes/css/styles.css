@@ -1,0 +1,82 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchinput{
+width: 200px;
+   }
+.navbar-brand{
+  margin-left: 0;
+  margin-top: 0;
+}
+.navbar{
+  background: black;
+}
+.collapse{
+  margin-top: 10px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel .item{
+height: 600px;
+
+}
+#myCarousel{
+  margin-top: 60px;
+}
+.carousel-inner{
+  margin-top: 43px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well {
+  text-align: center;
+  color: white;
+  background: black;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
