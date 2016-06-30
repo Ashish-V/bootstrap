@@ -14,18 +14,85 @@ Notes:	 Hand coded for Udemy.com
    Layout
    -------------------------------------- */
 
+   footer{
+     width: 100%;
+     background: black;
+     color: grey;
+     font-size: 11px;
+     padding: 10px;
+   }
+   footer .f1{
+     text-align: center;
+   }
+footer img{
+ padding-left: 600px;
+}
+#features {
+  text-align: center;
+  color: grey;
+}
+.panel{
+  background-color: black;
+}
+.panel-heading{
+  background-color: black;
+}
+#features img{
+  margin: 0 0 20px;
+}
+#featuresHeading{
+  font-family: sans-serif;
+  color: grey;
+}
 
+.image{
+  background: url('../../images/med.jpg') no-repeat;
+  height: 500px;
+}
+
+#moreInfo{
+  color: grey;
+  background-color:black;
+}
+.list-group-item{
+  background-color:black;
+  color: #CCCCCC
+}
+ .thumbnail{
+  background-color: black;
+  color: #CCCCCC;
+  text-align: center;
+}
+.tab11{
+  background: url('../../images/30.png') no-repeat;
+
+}
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
+  .body1{
+  background-image: url("http://cdntbs.astonmartin.com/sitefinity/DB9/DB9%20Carbon/blackbackground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-
+  width: 100%;
+}
+footer .f5 li{
+  display: inline;
+  padding-right: 140px;
+}
+footer .f5 ul{
+  padding-top: 15px;
+  padding-left: 170px;
+}
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
    #searchinput{
+     font-family: sans-serif;
 width: 200px;
    }
 .navbar-brand{
@@ -34,9 +101,11 @@ width: 200px;
 }
 .navbar{
   background: black;
+
 }
 .collapse{
   margin-top: 10px;
+  font-family: sans-serif;
 }
 
 /* --------------------------------------
@@ -55,28 +124,45 @@ height: 600px;
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-.well {
+
+#white{
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
   text-align: center;
-  color: white;
-  background: black;
+
 }
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
-
-}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+  .image{
+    background: url('../../images/small.jpg') no-repeat;
+    height: 310px;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .image{
+    background: url('../../images/xs.jpg') no-repeat;
+    height: 150px;
+    width: 300px;
+  }
 
 }
 
+
 /* Large desktop */
 @media (min-width: 1200px) {
+  .image{
+    background: url('../../images/large.jpg') no-repeat;
+    height: 600px;
 
+  }
 }
