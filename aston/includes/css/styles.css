@@ -24,9 +24,7 @@ Notes:	 Hand coded for Udemy.com
    footer .f1{
      text-align: center;
    }
-footer img{
- padding-left: 600px;
-}
+
 #features {
   text-align: center;
   color: grey;
@@ -56,17 +54,15 @@ footer img{
 }
 .list-group-item{
   background-color:black;
-  color: #CCCCCC
+  color: grey;
 }
  .thumbnail{
   background-color: black;
-  color: #CCCCCC;
+  color: grey;
   text-align: center;
 }
-.tab11{
-  background: url('../../images/30.png') no-repeat;
 
-}
+
 
 /* --------------------------------------
    Typography
@@ -102,6 +98,7 @@ width: 200px;
 .navbar{
   background: black;
 
+
 }
 .collapse{
   margin-top: 10px;
@@ -131,7 +128,9 @@ height: 600px;
   margin-right: auto;
   color: #333;
   text-align: center;
-
+}
+#white h2{
+  font-style: oblique;
 }
 /* --------------------------------------
    Media Queries
@@ -150,9 +149,9 @@ height: 600px;
 
 @media (max-width: 480px) {
   .image{
-    background: url('../../images/xs.jpg') no-repeat;
-    height: 150px;
-    width: 300px;
+    background: url('../../images/xs1.jpg') no-repeat;
+    height: 200px;
+    width: 400px;
   }
 
 }
